@@ -4,6 +4,10 @@
     justify-content: space-between;
 }
 
+.middle-list li{
+    display: inline;
+}
+
 .top-link-items li{
     display: inline;
 }
@@ -18,6 +22,9 @@
 /* -==-=-=-===-=-=-=-=MAIN NAV BAR-=--==--=-=-=- */
 .top-logo{
     width:30px;
+}
+.middle-list-search{
+    display: block;
 }
 
 .top-search{
