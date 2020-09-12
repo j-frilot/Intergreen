@@ -109,11 +109,11 @@
                 <img src="/images/banner_3.jpg" alt="" class="img-fluid d-block mx-auto banner-pic banner-pic-3">
             </div>
         </div>
-        <!-- -=-=-=-=-=-=-=-=-=-=-=4 FEATURED PRODUCTS-=-=--=-=- -->
+        <!-- -=-=-=-=-=-=-=-=-=-=-=4 FEATURED PRODUCTS UP TO SMALL (NOT SLIDE SHOW FOR MOBILE)-=-=--=-=- -->
         <h2 class="text-center">Featured Products</h2>
 
-        <div class="row product-cards">
-            <div class="col-md-6 col-lg-3">
+        <div class="row product-cards  ">
+            <div class="col-md-6 col-lg-3 d-none d-md-block">
                 <div class="card border-0">
                     <img src="/images/product-1.jpg" class="card-img-top img-fluid" alt="...">
                     <div class="card-body">
@@ -125,7 +125,7 @@
                 </div>
             </div>
 
-            <div class="col-md-6 col-lg-3">
+            <div class="col-md-6 col-lg-3 d-none d-md-block">
                 <div class="card border-0">
                     <img src="/images/product-2.jpg" class="card-img-top img-fluid" alt="...">
                     <div class="card-body">
@@ -137,7 +137,7 @@
                 </div>
             </div>
 
-            <div class="col-md-6 col-lg-3">
+            <div class="col-md-6 col-lg-3 d-none d-md-block">
                 <div class="card border-0">
                     <img src="/images/product-3.jpg" class="card-img-top img-fluid" alt="...">
                     <div class="card-body">
@@ -149,7 +149,7 @@
                 </div>
             </div>
 
-            <div class="col-md-6 col-lg-3">
+            <div class="col-md-6 col-lg-3 d-none d-md-block">
                 <div class="card border-0">
                     <img src="/images/product-4.jpg" class="card-img-top img-fluid" alt="...">
                     <div class="card-body">
@@ -162,10 +162,24 @@
             </div>
         </div>
         
-        <p class="text-center"><i class="fas fa-arrow-right"></i></p>
+        
 
-        <a href="#link" class="bottom-link"><h2 class="text-center">View All</h2></a>
+        <div id="carouselExampleSlidesOnly" class="carousel slide d-md-none" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/images/product-1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src="/images/product-2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src="/images/product-3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            </div>
+            <p class="text-center"><i class="fas fa-arrow-right"></i></p>
 
+            <a href="#link" class="bottom-link"><h2 class="text-center">View All</h2></a>
 
 
 
