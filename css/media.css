@@ -1,0 +1,19 @@
+@media screen and (max-width: 992px) {
+  .banner {
+    justify-content: space-evenly;
+  }
+
+  .banner-pic {
+    width: 225px;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+}
+
+@media screen and (max-width: 400px) {
+}
